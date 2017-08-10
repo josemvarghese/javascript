@@ -19,13 +19,6 @@
 		callback(a,b);
 	};
 	b(5,45,a);
-	// let c = function(f,g,function(f,g){
-	// 	console.log((f+g));
-	// }){
-	// 	console.log(f);
-	// };
-	// c(9,6);
-
 	// before callback implemenation
 	console.log("before callback implemetaion");
 	let calc = function(num1,num2,calcType){
